@@ -1,4 +1,4 @@
-
+// Reference: github/lucthienphong1120/lucthienphong1120.github.io
 document.addEventListener("contextmenu", function(e){ // Prevent Right click
     e.preventDefault();
 }, false);
