@@ -1,4 +1,4 @@
-# Reference: github/lucthienphong1120/score-ratings
+// Reference: github/lucthienphong1120/score-ratings
 const ratings = document.querySelectorAll(".rating");
 
 ratings.forEach((rating) => {

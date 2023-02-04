@@ -1,4 +1,4 @@
-# Reference: github/lucthienphong1120/simplePagination.js
+// Reference: github/lucthienphong1120/simplePagination.js
 (function($){
 
 	var methods = {

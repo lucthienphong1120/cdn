@@ -1,12 +1,12 @@
 document.write(
     `<style>
-    .tet_left img,
-    .tet_right img {
+    .tet_top_left img,
+    .tet_bottom_right img {
         width: 100%;
         height: auto;
     }
-    .tet_left,
-    .tet_right {
+    .tet_top_left,
+    .tet_bottom_left {
         position: fixed;
         top: 0;
         left: 0;
@@ -14,30 +14,31 @@ document.write(
         width: 191px;
         pointer-events: none;
     }
-    .tet_right {
-        left: auto;
-        right: 0;
+    .tet_bottom_left {
+        top: auto;
+        bottom: 0;
+        left: 0;
         width: 191px;
     }
-    .tet_bottom {
+    .tet_bottom_right {
         position: fixed;
         bottom: 0;
-        left: 80px;
+        right: 0;
         z-index: 99;
-        width: 320px;
+        width: 191px;
         pointer-events: none;
     }
     @media (max-width: 1331px) {
-        .tet_left,
-        .tet_right,
-        .tet_bottom {
+        .tet_top_left,
+        .tet_bottom_right,
+        .tet_bottom_left {
             display: none !important;
         }
     }
     </style>
-    <div class="tet_left"><img src="https://lucthienphong1120.github.io/cdn/images/animation-rain/tet-left-1.png"/></div>
-    <div class="tet_right"><img src="https://lucthienphong1120.github.io/cdn/images/animation-rain/tet-right-1.png"/></div>
-    <div class="tet_bottom"><img src="https://lucthienphong1120.github.io/cdn/images/animation-rain/tet-bottom-1.png"/></div>
+    <div class="tet_top_left"><img src="https://lucthienphong1120.github.io/cdn/images/animation-rain/canhdao.png"/></div>
+    <div class="tet_bottom_right"><img src="https://lucthienphong1120.github.io/cdn/images/animation-rain/lan.gif"/></div>
+    <div class="tet_bottom_left"><img src="https://lucthienphong1120.github.io/cdn/images/animation-rain/banhtrung.png"/></div>
 `);
 
 
@@ -45,7 +46,7 @@ var number = 20;
 if (matchMedia('only screen and (max-width: 767px)').matches) {
     number = 10
 }
-let img = 'https://lucthienphong1120.github.io/cdn/images/animation-rain/hoadao-mini.png';
+let img = 'https://lucthienphong1120.github.io/cdn/images/animation-rain/dao-icon.png';
 var hideTime = 0;
 var distance = 'windowheight'; // windowheight or pageheight;
 var ie4up = (document.all) ? 1 : 0;
