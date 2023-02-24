@@ -1,4 +1,3 @@
-# CDN service provided by ltp110.tk
+# CDN service provided by cdn.crfnetwork.cyou
 
 404 Not Found
-
