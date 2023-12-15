@@ -1,6 +1,6 @@
 # CDN
 
-CDN service provided by *cdn.crfnetwork.cyou*
+CDN service provided by *cdn.crfnetwork.com*
 
 ```
 404 Not Found
